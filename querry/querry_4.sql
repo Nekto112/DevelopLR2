@@ -7,4 +7,4 @@ JOIN souvenirprocurements AS sp
 	ON ps.IdProcurement = sp.Id
 JOIN providers AS p
 	ON sp.IdProvider = p.Id
-WHERE c.Name = 'Деловые подарки'
+WHERE c.Name = 'Фонари'
